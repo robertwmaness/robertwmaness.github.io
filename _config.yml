@@ -1,15 +1,16 @@
-title: "Personal Notes"
-description: "Thoughts, recipes, and sermon notes"
+title: "Robert W. Maness"
+description: "Thoughts and musings."
 theme: minima
 markdown: kramdown
 
 collections:
+  thoughts:
+    output: true
+    permalink: /thoughts/:name/
   recipes:
     output: true
     permalink: /recipes/:name/
-  sermons:
-    output: true
-    permalink: /sermons/:name/
+
 
 defaults:
   - scope:
@@ -19,10 +20,10 @@ defaults:
       layout: page
   - scope:
       path: ""
-      type: sermons
+      type: thoughts
     values:
       layout: page
       
 header_pages:
   - recipes.md
-  - sermons.md
+  - thoughts.md
