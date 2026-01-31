@@ -35,5 +35,5 @@ header_pages:
 navbar-links:
   Home: "/"
   Recipes: "/recipes/"
-  Sermons: "/sermons/"
+  Sermons: "/thoughts/"
   Writing: "/posts/"
