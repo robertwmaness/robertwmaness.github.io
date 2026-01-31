@@ -1,6 +1,7 @@
 title: "Robert W. Maness"
 description: "Thoughts and musings."
-theme: chirpy
+theme: jekyll-theme-midnight
+
 markdown: kramdown
 
 collections:
