@@ -1,10 +1,24 @@
-title: "Musings"
-description: "Thoughts about things"
+title: "Personal Notes"
+description: "Thoughts, recipes, and sermon notes"
 theme: minima
 markdown: kramdown
 
 collections:
   recipes:
     output: true
+    permalink: /recipes/:name/
   sermons:
     output: true
+    permalink: /sermons/:name/
+
+defaults:
+  - scope:
+      path: ""
+      type: recipes
+    values:
+      layout: page
+  - scope:
+      path: ""
+      type: sermons
+    values:
+      layout: page
