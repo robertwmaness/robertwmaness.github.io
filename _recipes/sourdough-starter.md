@@ -1,7 +1,11 @@
 ---
-title: "Sourdough Starter"
+layout: page
+title: Recipes
+permalink: /recipes/
 ---
 
-Ingredients:
-- Flour
-- Water
+<ul>
+  {% for r in site.recipes %}
+    <li><a href="{{ r.url }}">{{ r.title }}</a></li>
+  {% endfor %}
+</ul>
