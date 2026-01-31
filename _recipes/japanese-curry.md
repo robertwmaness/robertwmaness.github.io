@@ -4,7 +4,7 @@ title: "Japanese Curry"
 
 ![Japanese Curry](/assets/img/japanese_curry.png)
 
-Ingredients:
+**Ingredients:**
 - 4 tablespoons olive oil
 - 1 pound chicken breast, cut into 1 1/2-inch chunks
 - 1/2 a large yellow onion, diced to preferred size
@@ -21,12 +21,12 @@ Ingredients:
 - (optional) MSG to taste
 - (optinal) green onion garnish
 
-Prep: 
+**Prep: **
 - Recommend cutting carrots oblique style (larger chunks with angled cuts) and onions in a longer, stringy cut to go along with the chunkier potato pieces. 
 - Best to roughly dice the block of curry mix before adding as this will help it mix in much easier
 - Wash your rice before cooking. Short grain or jasmine is preferred.
 
-Instructions: 
+**Instructions: **
 1. In a large pot, heat oil until just beginning to smoke. Reduce heat to medium-high and add the chicken to cook until lightly browned, stirring occasionally. The goal is not to fully cook the chicken here as it will fully cook later in the broth while it simmers.
 2. Add the onions and season with salt and black pepper and cook until softened. 
 3. Add garlic and ginger and cook until aromatic, stirring often to avoid burning the garlic. 
