@@ -1,6 +1,7 @@
 title: "Robert W. Maness"
 description: "Thoughts and musings."
-theme: jekyll-theme-midnight
+
+remote_theme: StartBootstrap/startbootstrap-clean-blog-jekyll
 
 markdown: kramdown
 
