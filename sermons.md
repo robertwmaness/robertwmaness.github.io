@@ -1,11 +1,11 @@
 ---
 layout: page
-title: Sermons
-permalink: /sermons/
+title: Thoughts
+permalink: /thoughts/
 ---
 
 <ul>
-  {% for s in site.sermons %}
+  {% for s in site.thoughts %}
     <li><a href="{{ s.url }}">{{ s.title }}</a></li>
   {% endfor %}
 </ul>
