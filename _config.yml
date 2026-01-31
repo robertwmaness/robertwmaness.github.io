@@ -29,3 +29,9 @@ defaults:
 header_pages:
   - recipes.md
   - thoughts.md
+
+navbar-links:
+  Home: "/"
+  Recipes: "/recipes/"
+  Sermons: "/sermons/"
+  Writing: "/posts/"
