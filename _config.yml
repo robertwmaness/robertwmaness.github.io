@@ -2,9 +2,11 @@ title: "Robert W. Maness"
 description: "Thoughts and musings."
 
 remote_theme: StartBootstrap/startbootstrap-clean-blog-jekyll
+plugins:
+- jekyll-remote-theme
 
 markdown: kramdown
-#
+
 collections:
   thoughts:
     output: true
