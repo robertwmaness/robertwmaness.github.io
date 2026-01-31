@@ -2,7 +2,7 @@
 title: "Japanese Curry"
 ---
 
-[Japanese Curry](/assets/img/japanese_curry.png)
+![Japanese Curry](/assets/img/japanese_curry.png)
 
 Ingredients:
 - 4 tablespoons olive oil
