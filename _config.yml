@@ -22,3 +22,7 @@ defaults:
       type: sermons
     values:
       layout: page
+      
+header_pages:
+  - recipes.md
+  - sermons.md
