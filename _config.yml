@@ -4,7 +4,7 @@ description: "Thoughts and musings."
 remote_theme: StartBootstrap/startbootstrap-clean-blog-jekyll
 
 markdown: kramdown
-
+#
 collections:
   thoughts:
     output: true
