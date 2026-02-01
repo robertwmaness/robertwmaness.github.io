@@ -2,8 +2,6 @@
 layout: page
 ---
 
-<h1>{{ page.title }}</h1>
-
 {% assign cat = page.category | downcase %}
 {% assign matched = "" | split: "" %}
 
@@ -29,3 +27,4 @@ layout: page
     </div>
     <hr>
   {% endfor %}
+{% endif %}
