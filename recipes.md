@@ -1,11 +1,6 @@
 ---
-layout: page
+layout: category
 title: Recipes
 permalink: /recipes/
+category: recipes
 ---
-
-<ul>
-  {% for r in site.recipes %}
-    <li><a href="{{ r.url }}">{{ r.title }}</a></li>
-  {% endfor %}
-</ul>
