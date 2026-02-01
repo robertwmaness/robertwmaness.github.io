@@ -1,6 +1,6 @@
 ---
 layout: category
-title: Cooking
+title: COOKING
 permalink: /cooking/
 category: cooking
 ---
