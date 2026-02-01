@@ -1,10 +1,12 @@
 title: "Robert W. Maness"
 description: "Thoughts and musings."
 
-remote_theme: StartBootstrap/startbootstrap-clean-blog-jekyll
+remote_theme: niklasbuschmann/contrast@v4.8
+
 plugins:
   - jekyll-remote-theme
-
+  - jekyll-feed
+  
 markdown: kramdown
 
 collections:
@@ -14,3 +16,17 @@ collections:
   iam:
     output: true
     permalink: /iam/:name/
+    
+permalink: /:title/
+date_format: "%B %-d, %Y"
+
+show_excerpts: true
+show_frame: true
+show_sidebar: false
+show_minimal: false
+
+navigation:
+  - {title: Thoughts, url: /thoughts/}
+  - {title: IAM, url: /iam/}
+  - {title: Cooking, url: /cooking/}
+  - {title: Archive, url: /archive/}
