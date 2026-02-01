@@ -1,7 +1,7 @@
 ---
 layout: post
-title: "On Tipped Percentages in Food Service"
-subtitle: Thoughts on modern-day tipping culture.  
+title: "On Tipped Percentages"
+subtitle: My take on modern "tipping culture".  
 categories: [thoughts]
 ---
 
