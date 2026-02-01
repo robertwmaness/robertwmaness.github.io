@@ -1,32 +1,37 @@
+# Site identity
 title: "Robert W. Maness"
 description: "Thoughts and musings."
 
+# Theme
 remote_theme: niklasbuschmann/contrast@v4.8
 
+# Plugins (supported with your GitHub Actions build)
 plugins:
   - jekyll-remote-theme
   - jekyll-feed
-  
+
+# Markdown
 markdown: kramdown
 
-collections:
-  recipes:
-    output: true
-    permalink: /cooking/:name/
-  iam:
-    output: true
-    permalink: /iam/:name/
-    
-permalink: /:title/
-date_format: "%B %-d, %Y"
+# URL style
+permalink: /:categories/:title/
 
+# Excerpts (used on home + archive in Contrast)
 show_excerpts: true
+
+# Contrast options (safe defaults)
 show_frame: true
 show_sidebar: false
 show_minimal: false
+date_format: "%B %-d, %Y"
 
+# Navigation (controls the top nav in Contrast)
 navigation:
+  - {title: Home, url: /}
   - {title: Thoughts, url: /thoughts/}
   - {title: IAM, url: /iam/}
-  - {title: Cooking, url: /cooking/}
+  - {title: Recipes, url: /recipes/}
   - {title: Archive, url: /archive/}
+
+# Optional: avoid publishing future-dated posts
+future: false
