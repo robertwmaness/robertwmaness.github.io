@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Japanese Curry"
-subtitle: _Kare Raisu_
+subtitle: Kare Raisu
 categories: [recipes]
 ---
 
