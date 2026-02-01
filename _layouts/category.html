@@ -1,6 +1,8 @@
 ---
-layout: page
+layout: default
 ---
+
+<h1>{{ page.title }}</h1>
 
 {% assign cat = page.category | downcase %}
 {% assign matched = "" | split: "" %}
@@ -15,16 +17,13 @@ layout: page
 {% if matched.size == 0 %}
   <p>No posts yet in {{ page.title }}.</p>
 {% else %}
-  {% for post in matched %}
-    <div class="post-preview">
-      <a href="{{ post.url | relative_url }}">
-        <h2 class="post-title">{{ post.title }}</h2>
-        {% if post.subtitle %}
-          <h3 class="post-subtitle">{{ post.subtitle }}</h3>
-        {% endif %}
-      </a>
-      <p class="post-meta">{{ post.date | date: "%B %-d, %Y" }}</p>
-    </div>
-    <hr>
-  {% endfor %}
+  <ul>
+    {% for post in matched %}
+      <li>
+        <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
+        <small> — {{ post.date | date: site.date_format | default: "%B %-d, %Y" }}</small>
+        {% if post.subtitle %}<div>{{ post.subtitle }}</div>{% endif %}
+      </li>
+    {% endfor %}
+  </ul>
 {% endif %}
