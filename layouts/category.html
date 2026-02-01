@@ -1,0 +1,27 @@
+---
+layout: page
+---
+
+{% assign cat = page.category | downcase %}
+{% assign posts = site.categories[cat] %}
+
+{% if posts == nil or posts.size == 0 %}
+  <p>No posts yet in {{ page.title }}.</p>
+{% else %}
+  {% for post in posts %}
+    <div class="post-preview">
+      <a href="{{ post.url | relative_url }}">
+        <h2 class="post-title">{{ post.title }}</h2>
+        {% if post.subtitle %}
+          <h3 class="post-subtitle">{{ post.subtitle }}</h3>
+        {% elsif post.excerpt %}
+          <h3 class="post-subtitle">{{ post.excerpt | strip_html | truncate: 140 }}</h3>
+        {% endif %}
+      </a>
+      <p class="post-meta">
+        {{ post.date | date: "%B %-d, %Y" }}
+      </p>
+    </div>
+    <hr>
+  {% endfor %}
+{% endif %}
