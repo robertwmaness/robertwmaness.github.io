@@ -1,6 +1,5 @@
 ---
-layout: category
-title: Posts
+layout: home
+title: All Posts
 permalink: /posts/
-category: posts
 ---
