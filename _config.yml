@@ -3,7 +3,7 @@ description: "Thoughts and musings."
 
 remote_theme: StartBootstrap/startbootstrap-clean-blog-jekyll
 plugins:
-- jekyll-remote-theme
+  - jekyll-remote-theme
 
 markdown: kramdown
 
@@ -11,21 +11,3 @@ collections:
   recipes:
     output: true
     permalink: /recipes/:name/
-
-
-defaults:
-  - scope:
-      path: ""
-      type: recipes
-    values:
-      layout: page
-      
-header_pages:
-  - recipes.md
-  - thoughts.md
-
-navbar-links:
-  Home: "/"
-  Recipes: "/recipes/"
-  Sermons: "/thoughts/"
-  Writing: "/posts/"
