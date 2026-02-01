@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Japanese Curry"
+subtitle: Hearty, warm weeknight meal with great leftovers. 
 categories: [cooking]
 ---
 
