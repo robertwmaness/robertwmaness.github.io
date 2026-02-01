@@ -1,0 +1,29 @@
+---
+layout: default
+---
+
+<h1>{{ page.title }}</h1>
+
+{% assign cat = page.category | downcase %}
+{% assign matched = "" | split: "" %}
+
+{% for post in site.posts %}
+  {% assign cats = post.categories | join: "|" | downcase %}
+  {% if cats contains cat %}
+    {% assign matched = matched | push: post %}
+  {% endif %}
+{% endfor %}
+
+{% if matched.size == 0 %}
+  <p>No posts yet in {{ page.title }}.</p>
+{% else %}
+  <ul>
+    {% for post in matched %}
+      <li>
+        <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
+        <small> — {{ post.date | date: site.date_format | default: "%B %-d, %Y" }}</small>
+        {% if post.subtitle %}<div>{{ post.subtitle }}</div>{% endif %}
+      </li>
+    {% endfor %}
+  </ul>
+{% endif %}
