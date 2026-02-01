@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Japanese Curry"
-categories: [recipes]
+categories: [cooking]
 ---
 
 
