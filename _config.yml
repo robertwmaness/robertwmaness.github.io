@@ -8,9 +8,6 @@ plugins:
 markdown: kramdown
 
 collections:
-  thoughts:
-    output: true
-    permalink: /thoughts/:name/
   recipes:
     output: true
     permalink: /recipes/:name/
@@ -20,11 +17,6 @@ defaults:
   - scope:
       path: ""
       type: recipes
-    values:
-      layout: page
-  - scope:
-      path: ""
-      type: thoughts
     values:
       layout: page
       
