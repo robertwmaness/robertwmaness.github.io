@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "On Tipped Percentages"
-subtitle: My take on modern "tipping culture".  
+subtitle: My take on modern "tipping culture" 
 background: "/assets/img/tip.jpg"
 categories: [thoughts]
 ---
