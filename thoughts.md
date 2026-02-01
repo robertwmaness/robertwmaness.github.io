@@ -1,11 +1,6 @@
 ---
-layout: page
+layout: category
 title: Thoughts
 permalink: /thoughts/
+category: thoughts
 ---
-
-<ul>
-  {% for s in site.thoughts %}
-    <li><a href="{{ s.url }}">{{ s.title }}</a></li>
-  {% endfor %}
-</ul>
