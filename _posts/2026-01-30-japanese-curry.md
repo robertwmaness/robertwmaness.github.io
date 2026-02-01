@@ -1,7 +1,6 @@
 ---
 layout: post
 title: "Japanese Curry"
-subtitle: "Weeknight curry with S&amp;B blocks, potatoes, and carrots."
 categories: [recipes]
 ---
 
