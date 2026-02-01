@@ -3,5 +3,5 @@ layout: category
 title: Thoughts
 permalink: /thoughts/
 category: thoughts
-background: "img/assets/brain.png"
+background: "img/assets/death_of_socrates.jpg"
 ---
