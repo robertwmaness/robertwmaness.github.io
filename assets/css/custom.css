@@ -1,0 +1,11 @@
+header.masthead .page-heading h1,
+header.masthead .post-heading h1 {
+  font-size: 2rem;        /* default is ~4rem */
+  font-weight: 500;
+}
+
+header.masthead .page-heading .subheading,
+header.masthead .post-heading .subheading {
+  font-size: 1rem;
+  opacity: 0.8;
+}
