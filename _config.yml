@@ -6,6 +6,8 @@ remote_theme: StartBootstrap/startbootstrap-clean-blog-jekyll
 plugins:
   - jekyll-remote-theme
 
+custom_css: /assets/css/custom.css
+
 markdown: kramdown
 
 collections:
