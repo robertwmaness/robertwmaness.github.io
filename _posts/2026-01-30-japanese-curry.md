@@ -2,11 +2,9 @@
 layout: post
 title: "Japanese Curry"
 subtitle: Hearty, warm weeknight meal with great leftovers. 
+background: "/assets/img/japanese_curry.png"
 categories: [cooking]
 ---
-
-
-![Japanese Curry](/assets/img/japanese_curry.png)
 
 **Ingredients:**
 - 4 tablespoons olive oil
