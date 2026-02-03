@@ -1,7 +1,7 @@
 ---
 layout: category
-title: IAM
-permalink: /iam/
-category: iam
+title: BOOKS
+permalink: /books/
+category: books
 background: "/assets/img/books.webp"
 ---
