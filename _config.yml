@@ -12,9 +12,6 @@ favicon: /favicon.ico
 markdown: kramdown
 
 collections:
-  recipes:
-    output: true
-    permalink: /cooking/:name/
   iam:
     output: true
     permalink: /iam/:name/
